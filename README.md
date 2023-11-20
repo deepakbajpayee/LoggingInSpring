@@ -31,7 +31,8 @@ Step 1: Adding mvn dependency in you pom if you don’t have.
     <artifactId>log4j-core</artifactId>
     <version>2.22.0</version>
   </dependency>
-  
+ 
+ 
  
 Step 2: 
 Create an object of Logger and start Logging.
@@ -50,13 +51,15 @@ Level could be TRACE, DEBUG, INFO, WARN, ERROR, OFF.
 logging.level.root=warn
 logging.level.org.springframework.web=debug
 logging.level.org.hibernate=error
-  
+ 
+ 
  
 Which logs would be shown in the logs depend on following matrix. While horizontal header shows your configuration in properties file, the vertical header shows level at which you are logging in your class file.
  
  
 
  
+
  
  
 Reference:
